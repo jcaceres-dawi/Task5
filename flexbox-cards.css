@@ -1,0 +1,47 @@
+.cards {
+  /*************  ADD YOUR CODE HERE ************/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /************** END OF YOUR CODE ***************/
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  /*************  ADD YOUR CODE HERE ************/
+  width: 250px;
+  height: 400px;
+  position: relative;
+  /************** END OF YOUR CODE ***************/
+}
+
+.card img {
+  /*************  ADD YOUR CODE HERE ************/
+  width: 100%;
+  /************** END OF YOUR CODE ***************/
+}
+
+.card .text {
+  padding: 0 5px 5px;
+}
+
+.card .text > button {
+  background: #000;
+  border: 0;
+  color: white;
+  /*************  ADD YOUR CODE HERE ************/
+  height: 10%;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  /************** END OF YOUR CODE ***************/
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
